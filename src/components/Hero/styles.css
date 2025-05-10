@@ -1,0 +1,150 @@
+/* Main container */
+.hero-container {
+  margin-left: -12rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem 8rem;
+  min-height: 100vh;
+  background-color: var(--background-color);
+}
+
+/* Text section */
+.hero-text {
+  width: 70%;
+  z-index: 1;
+}
+
+.hello-text {
+  font-size: 2.5rem;
+  color: var(--text-color);
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.hello-icon {
+  width: 40px;
+  height: 40px;
+  margin: 0 10px;
+}
+
+.hero-name {
+  font-size: 7rem;
+  color: var(--primary-color);
+  margin: 0;
+  line-height: 1.2;
+}
+
+.hero-title {
+  font-size: 2.5rem;
+  color: var(--secondary-color);
+  margin: 1rem 0;
+  font-weight: 400;
+}
+
+/* Button */
+.hero-button {
+  display: inline-block;
+  padding: 0.8rem 2rem;
+  background-color: var(--primary-color);
+  color: white;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  border: none;
+  cursor: pointer;
+}
+
+.hero-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Social media */
+.social-media {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.social-icon {
+  width: 30px;
+  height: 30px;
+  transition: transform 0.3s ease;
+}
+
+.social-icon:hover {
+  transform: scale(1.2);
+}
+
+/* Image section */
+.hero-image {
+  position: relative;
+  width: 50%;
+  align-items: center;
+}
+
+.illustration-img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  margin-right: -4rem;
+  animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-20px); }
+  100% { transform: translateY(0px); }
+}
+
+/* Responsive design */
+@media (max-width: 1024px) {
+  .hero-container {
+    flex-direction: column;
+    padding: 4rem 2rem;
+    text-align: center;
+  }
+
+  .hero-text {
+    margin-bottom: 3rem;
+  }
+
+  .hello-text {
+    justify-content: center;
+  }
+
+  .social-media {
+    justify-content: center;
+  }
+
+  .hero-image {
+    width: 80%;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-name {
+    font-size: 3rem;
+  }
+
+  .hero-title {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-name {
+    font-size: 2.5rem;
+  }
+
+  .hero-title {
+    font-size: 1.5rem;
+  }
+
+  .hello-text {
+    font-size: 2rem;
+  }
+}

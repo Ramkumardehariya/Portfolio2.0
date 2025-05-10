@@ -1,0 +1,67 @@
+.contact-section {
+  margin-top: 10rem;
+}
+
+.contact-section header {
+  text-align: center;
+}
+
+.contact-section header h2 {
+  text-align: center;
+  font-size: 4rem;
+  color: rgb(72, 220, 129);
+}
+
+.contact-section header p {
+  color: var(--green);
+  font-weight: 500;
+}
+
+.contact-section .contacts {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  place-items: center;
+  margin-top: 1.5rem;
+}
+
+.contact-section .contacts div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  max-width: 30rem;
+  gap: 2rem;
+  background-color: var(--green);
+  border-radius: 1.4rem;
+  padding: 1.6rem 2.8rem;
+  transition: background-color 0.25s;
+}
+
+.contact-section .contacts div img {
+  width: 4rem;
+}
+
+.contact-section .contacts div a {
+  color: var(--black);
+  font-weight: 500;
+}
+
+.contact-section .contacts div:hover {
+  background-color: var(--pink);
+}
+
+.contact-section .contacts div:hover a {
+  color: #FFF;
+}
+
+@media (max-width: 960px) {
+  .contact-section .contacts {
+    flex-direction: column;
+  }
+  
+  .contact-section .contacts div {
+    width: 100%;
+  }
+}
