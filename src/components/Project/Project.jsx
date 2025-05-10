@@ -70,7 +70,7 @@ export function Project() {
           title={'Portfolio 2.0 - My personal portfolio website'} 
           tech={'React Js, Typescript, Tailwind CSS, Aceternity UI'}
           image={protfolio2}
-          link={'#'}
+          link={'https://portfolio2-0-eight-alpha.vercel.app/'}
         />
 
         <ProjectCard 
