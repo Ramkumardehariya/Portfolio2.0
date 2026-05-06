@@ -3,6 +3,11 @@
   --black: #212121;
   --green: #23ce6b;
   --blue: #016fb9;
+  --background-color: var(--black);
+  --text-color: #FFFF;
+  --primary-color: var(--green);
+  --secondary-color: var(--blue);
+  --primaryFont: 'Red Hat Display', sans-serif;
   scroll-padding-top: 10rem;
 }
 
@@ -18,7 +23,7 @@
 
 :root.light header.header-fixed {
   transition: 0.5s;
-  background-color: #f5f5f550;
+  background-color: rgba(33, 33, 33, 0.5);
 }
 
 :root.light header.header-fixed a {
@@ -53,6 +58,173 @@
 :root.light form textarea::placeholder {
   transition: 0.5s;
   color: var(--black);
+}
+
+:root.light .hero-container {
+  background-color: #f5f5f5;
+}
+
+:root.light .hello-text {
+  color: var(--black);
+}
+
+:root.light .hero-name {
+  color: var(--primary-color);
+}
+
+:root.light .hero-title {
+  color: var(--secondary-color);
+}
+
+:root.light .about-section p {
+  color: var(--black);
+}
+
+:root.light .project-card {
+  background-color: #ffffff;
+  color: var(--black);
+  border: 1px solid #e0e0e0;
+}
+
+:root.light .project-card p a {
+  color: var(--black);
+}
+
+:root.light .experience-title {
+  color: var(--black);
+}
+
+:root.light .experience-section .vertical-timeline-element--work .vertical-timeline-element-content {
+  background: #f0fff4 !important;
+  border: 1px solid #22c55e !important;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1) !important;
+}
+
+.experience-section .timeline-list {
+  color: var(--black) !important;
+}
+
+.experience-section .list-item {
+  color: var(--black) !important;
+}
+
+:root.light .skillsHeader h2 {
+  color: var(--black);
+}
+
+:root.light .profile-card {
+  background-color: #ffffff;
+  color: var(--black);
+  border: 1px solid #e0e0e0;
+}
+
+:root.light .profile-card p a {
+  color: var(--black);
+}
+
+:root.light .coding-profiles-section h2 {
+  color: var(--black);
+}
+
+:root.light .profile-card h3 {
+  color: var(--black);
+}
+
+:root.light .profile-card p {
+  color: var(--black);
+}
+
+:root.light .tech-list {
+  color: var(--black);
+}
+
+:root.light .contact-section header p {
+  color: var(--black);
+}
+
+:root.light .contact-section .contacts div {
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+}
+
+:root.light .contact-section .contacts div a {
+  color: var(--black);
+}
+
+:root.light button, 
+:root.light .button {
+  color: white;
+}
+
+:root.light nav a {
+  color: var(--black);
+}
+
+:root.light .timelineIcon {
+  background-color: #ffffff;
+  border: 2px solid var(--black);
+}
+
+:root.light .educationSection .vertical-timeline-element--work .vertical-timeline-element-content {
+  background: #f0fff4 !important;
+  border: 1px solid #22c55e !important;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1) !important;
+  color: var(--black) !important;
+}
+
+:root.light .skill--box {
+  background: #ffffff;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.08);
+}
+
+:root.light .skill--box h3 {
+  color: var(--black);
+}
+
+:root.light .project-title {
+  color: var(--black);
+}
+
+:root.light .project-card h3 {
+  color: var(--black);
+}
+
+:root.light .project-card h1 {
+  color: var(--black) !important;
+}
+
+:root.light .project-card .text-white {
+  color: var(--black) !important;
+}
+
+:root.light .project-card .hover\:text-black:hover {
+  color: var(--black) !important;
+}
+
+:root.light .project-card p {
+  color: var(--black);
+}
+
+:root.light .tech-list {
+  color: var(--black);
+}
+
+:root.light .container {
+  background-color: #ffffff;
+  color: var(--black);
+  border-top: 1px solid #e0e0e0;
+}
+
+:root.light .creditText {
+  color: var(--black);
+}
+
+:root.light {
+  --background-color: #f5f5f5;
+  --text-color: var(--black);
+  --primary-color: var(--green);
+  --secondary-color: var(--blue);
 }
 
 ul, li {

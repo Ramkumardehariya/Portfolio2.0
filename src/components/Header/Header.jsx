@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { BrowserRouter } from 'react-router-dom';
 import { NavHashLink, HashLink } from 'react-router-hash-link';
 import './styles.css'
-import CV from '../../assets/Ramkumar_resume(2).pdf';
+import CV from '../../assets/Ramkumar_Dehariya_Resume.pdf';
 
 export function Header() {
   const [isActive, setActive] = useState(false);

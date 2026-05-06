@@ -64,7 +64,7 @@ const Education = () => {
               {edu.course}
             </h3>
             <h3 className="text-2xl timelinePeriod">{edu.period}</h3>
-            <h3 className="text-2xl timelineScore">{edu.score}</h3>
+            <h3 className="text-2xl ">{edu.score}</h3>
           </div>
           </VerticalTimelineElement>
         ))}

@@ -23,11 +23,12 @@
   font-weight: bold;
   font-size: 3.5rem;
   text-align: center;
+  color: var(--green);
 }
 
 
 .timelineIcon {
-  background-color: white;
+  background-color: var(--background-color);
   padding: 0.75rem;
   display: flex;
   align-items: center;
@@ -39,23 +40,26 @@
   font-size: 2.25rem;
   line-height: 2;
   margin-bottom: 0.5rem;
+  color: var(--text-color);
 }
 
 .timelineSubtitle {
   font-size: 1.875rem;
   line-height: 1;
   margin-top: 0.25rem;
+  color: var(--text-color);
 }
 
 .timelinePeriod {
   font-size: 0.9375rem;
-  color: #1e3a8a;
+  color: var(--blue);
   margin-top: 0.25rem;
   margin-bottom: 0.75rem;
 }
 
 .timelineScore {
   font-size: 0.9375rem;
+  color: var(--text-color);
 }
 
 /* Responsive adjustments */

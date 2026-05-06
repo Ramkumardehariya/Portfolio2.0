@@ -1,5 +1,5 @@
 .container {
-  background-color: #2b2b2b;
+  background-color: var(--background-color);
   padding: 4rem 20rem;
   margin-top: 10rem;
   display: flex;
@@ -15,6 +15,7 @@
   gap: 0.5rem;
   padding-top: 4rem;
   padding-bottom: 3rem;
+  color: var(--text-color);
 }
 
 .reactIcon {

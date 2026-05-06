@@ -25,12 +25,12 @@ const Experience = () => {
           iconStyle={{ background: 'white' }}
           icon={<img src={settyl} alt="Settyl" className="timeline-icon" />}
         >
-          <h1 className="timeline-title">Full Stack Engineer Training</h1>
-          <h4 className="timeline-subtitle">BrideLabz Solution Private Limited, Bengaluru</h4>
-          <div className="timeline-date">23 Aug 2024 - 28 Feb 2025</div>
+          <h1 className="timeline-title">Software Development Engineer</h1>
+          <h4 className="timeline-subtitle">Kaptured AI </h4>
+          <div className="timeline-date">Oct 2025 - Jan 2026</div>
           <ol className="timeline-list">
-            <li className="list-item"> Completed hands-on MERN Stack training, built full-stack apps with CRUD, auth, REST APIs, Git, and GitHub collaboration.</li>
-            <li className="list-item">Worked on real-time projects in Agile teams, solved coding challenges, did code reviews, and deployed using Vercel, Netlify.</li>
+            <li className="list-item">• Developed scalable web applications using TypeScript, Next.js, React.js, and Supabase with 30+ REST APIs and optimized databases.</li>
+            <li className="list-item">• Implemented dashboards, CRUD operations, PDF reports, bug fixes, and 20+ Python automation scripts improving backend workflow efficiency.</li>
           </ol>
         </VerticalTimelineElement>
 
@@ -42,12 +42,12 @@ const Experience = () => {
           iconStyle={{ background: 'white' }}
           icon={<img src={erp} alt="Ayattih Education" className="timeline-icon" />}
         >
-          <h1 className="timeline-title">Full Stack Developer Course</h1>
-          <h4 className="timeline-subtitle">Code help</h4>
-          <div className="timeline-date">01 Aug 2023 - 08 Feb 2024</div>
+          <h1 className="timeline-title">Quality Analyst</h1>
+          <h4 className="timeline-subtitle">Unibots</h4>
+          <div className="timeline-date">May 2026 - Present</div>
           <ol className="timeline-list">
-            <li className="list-item">Completed MERN Stack course from CodeHelp, gaining hands-on experience in MongoDB, Express.js, React.js, and Node.js through real-world projects.</li>
-            <li className="list-item">Built full-stack applications with authentication, CRUD operations, and RESTful APIs, enhancing my frontend and backend development skills.</li>
+            <li className="list-item">• Performed functional and API testing of web applications, ensuring reliability, performance, seamless user experience, and accurate system behavior.</li>
+            <li className="list-item">• Collaborated with developers to debug issues, validate REST APIs using Postman, and improve backend workflows and application quality.</li>
           </ol>
         </VerticalTimelineElement>
 
@@ -58,12 +58,12 @@ const Experience = () => {
           iconStyle={{ background: 'white' }}
           icon={<img src={hal} alt="HAL" className="timeline-icon" />}
         >
-          <h1 className="timeline-title green-text">Web Developer Intern</h1>
-          <h4 className="timeline-subtitle">Intern Pe </h4>
-          <div className="timeline-date">February 2024 - Present</div>
+          <h1 className="timeline-title green-text">Quality Assurance Testing</h1>
+          <h4 className="timeline-subtitle">BridgeLabz Solutions Private Limited</h4>
+          <div className="timeline-date">August 2024 - Feb 2025</div>
           <ol className="timeline-list">
-            <li className="list-item">Designed and developed the Resolver, a Township Complaint Management System, using ReactJS and Firebase technologies</li>
-            <li className="list-item">Utilized Firebase to implement chat functionality, allowing residents to communicate and resolve issues effectively</li>
+            <li className="list-item">• Completed six months of Quality Assurance training with hands-on experience in Core Java, automation scripting, API, and database testing.</li>
+            <li className="list-item">• Performed manual, API, database, and mobile testing, fixed 20+ bugs, optimized assets, and improved application maintainability.</li>
           </ol>
         </VerticalTimelineElement>
 
@@ -74,12 +74,12 @@ const Experience = () => {
           iconStyle={{ background: 'white' }}
           icon={<img src={railway} alt="Indian Railways" className="timeline-icon" />}
         >
-          <h1 className="timeline-title green-text">Computer Science Trainee</h1>
-          <h4 className="timeline-subtitle">West Central Railway, Jabalpur</h4>
-          <div className="timeline-date">May 2022 - June 2022</div>
+          <h1 className="timeline-title green-text">MERN Full stack Course</h1>
+          <h4 className="timeline-subtitle">Code help</h4>
+          <div className="timeline-date">Aug 2023 - Nov 2023</div>
           <ol className="timeline-list">
-            <li className="list-item">Completed an 8-week online training on Web Development (HTML, CSS, Bootstrap, DBMS, PHP, JS, React)</li>
-            <li className="list-item">Worked alongside with the staff in the Telephone Exchange department</li>
+            <li className="list-item">• Completed MERN Stack training with hands-on experience in MongoDB, Express.js, React.js, Node.js, REST APIs, and full-stack development.</li>
+            <li className="list-item">• Built responsive full-stack applications, implemented authentication, CRUD operations, API integration, and optimized frontend and backend performance.</li>
           </ol>
         </VerticalTimelineElement>
       </VerticalTimeline>
