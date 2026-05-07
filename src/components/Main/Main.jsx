@@ -1,7 +1,8 @@
 "use client";
 
 import React from "react";
-import Particles from "react-tsparticles";
+import Particles from "@tsparticles/react";
+import { loadFull } from "tsparticles";
 import './styles.css'// Create this CSS module file
 import { Hero } from "../Hero/Hero";
 import { About } from "../About/About";
@@ -25,6 +26,10 @@ import vscodeIcon from "../../assets/vscode-icon.svg";
 import boostrapIcon from "../../assets/bootstrap-icon.svg";
 
 export function Main() {
+  const particlesInit = async (engine) => {
+    await loadFull(engine);
+  };
+
   const particlesOptions = {
     fullScreen: {
       enable: true,
@@ -247,6 +252,7 @@ export function Main() {
     <main className="container">
       <Particles
         id="tsparticles"
+        init={particlesInit}
         options={particlesOptions}
       />
       <Hero />
