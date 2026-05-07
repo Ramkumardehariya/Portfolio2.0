@@ -10,7 +10,7 @@ export default function CodingProfiles() {
     <section className="coding-profiles-section" id="project">
       <h2>Coding Profiles</h2>
       <div className="profiles">
-        <a href='https://leetcode.com/u/Ramkumar2002/' target='_blank'>
+        <a href='https://leetcode.com/u/Ramkumar2002/' target='_blank' rel='noreferrer'>
           <PinContainer
             title="leetcode.com/Ramkumar2002"
             href="https://leetcode.com/u/Ramkumar2002/"
@@ -28,7 +28,7 @@ export default function CodingProfiles() {
           </PinContainer>
         </a>
 
-        <a href='https://www.geeksforgeeks.org/user/ramkumardehariya26/' target='_blank'>
+        <a href='https://www.geeksforgeeks.org/user/ramkumardehariya26/' target='_blank' rel='noreferrer'>
           <PinContainer
             title="GFG/ramkumardehariya26"
             href="https://www.geeksforgeeks.org/user/ramkumardehariya26/"
@@ -46,7 +46,7 @@ export default function CodingProfiles() {
           </PinContainer>
         </a>
 
-        <a href='https://www.naukri.com/code360/profile/ramkumar123' target='_blank'>
+        <a href='https://www.naukri.com/code360/profile/ramkumar123' target='_blank' rel='noreferrer'>
           <PinContainer
             title="codingninja/ramkumar123"
             href="https://www.naukri.com/code360/profile/ramkumar123"
