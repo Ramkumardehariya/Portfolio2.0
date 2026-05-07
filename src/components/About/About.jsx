@@ -1,16 +1,12 @@
 import React from 'react';
 import './styles.css';
 import RamkumarDehariya from "../../assets/photo.jpg";
-import wordpress from "../../assets/wordpress.svg";
-import shopify from "../../assets/shopify.svg";
 import htmlIcon from "../../assets/html-icon.svg";
 import cssIcon from "../../assets/css-icon.svg";
 import jsIcon from "../../assets/js-icon.svg";
 import nodeIcon from "../../assets/node-icon.svg";
 import reactIcon from "../../assets/react-icon.svg";
 import mongodbIcon from "../../assets/mongodb-icon-1.svg";
-import vueIcon from "../../assets/vue-icon.svg";
-import boostrapIcon from "../../assets/bootstrap-icon.svg";
 import tailwindIcon from "../../assets/tailwind.svg";
 import ScrollAnimation from "react-animate-on-scroll";
 
